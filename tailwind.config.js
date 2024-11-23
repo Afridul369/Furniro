@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       maxWidth: {
+        Container: '1240px',
         NavContainer: '1280px',
         BrowsContainer: '1180px',
-        Container: '1240px',
       },
       fontFamily: {
         Pop : 'Poppins'      
@@ -17,6 +17,7 @@ export default {
       colors: {
         h1Text: '#333333',
         PText: '#666666',
+        Protext: '#3A3A3A',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
