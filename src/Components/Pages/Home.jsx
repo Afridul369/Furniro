@@ -3,6 +3,7 @@ import Nabvar from '../Nabvar'
 import Banner from '../Banner'
 import Browse from '../Browse'
 import Product from '../Product'
+import Explore from '../Explore'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Banner/>
     <Browse/>
     <Product/>
+    <Explore/>
     </>
   )
 }

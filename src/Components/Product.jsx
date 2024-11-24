@@ -13,6 +13,7 @@ import Product7 from '../assets/product7.png'
 import Product8 from '../assets/product8.png'
 import Badge from './Badge'
 import DynamicBadge from './DynamicBadge'
+import Button1 from './Button1'
 
 
 const Product = () => {
@@ -31,12 +32,8 @@ const Product = () => {
               <Products imgSrc={Product6} text1={'-30%'} text2={'Muggo'} text3={'Small mug'} text4={'Rp 150.000'} icon={<DynamicBadge text1={'New'} backgroundBG={'bg-Badgebg2'}/>}/>
               <Products imgSrc={Product7} text1={'-30%'} text2={'Pingky'} text3={'Cute bed set'} text4={'Rp 7.000.000'} text5={<del>Rp 14.000.000</del>} icon={<DynamicBadge text1={'-50%'} backgroundBG={'bg-Badgebg'}/>}/>
               <Products imgSrc={Product8} text1={'-30%'} text2={'Potty'} text3={'Minimalist flower pot'} text4={'Rp 500.000'} icon={<DynamicBadge text1={'New'} backgroundBG={'bg-Badgebg2'}/>}/>
-           </Flex>
-           <div className="w-[200px] mx-auto ">
-           <div className="text-center border border-Hovertext1  py-3">
-              <Text as={'h1'} text={'Show More'} className={'text-base font-Pop font-semibold text-Hovertext1'}/>
-           </div>
-           </div>
+           </Flex>               
+             <Button1 texts={'Show More'} className={'mx-auto'}/>     
         </Container>
 
     </div> 

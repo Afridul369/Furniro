@@ -26,6 +26,8 @@ export default {
         protext2: '#898989',
         protext3: '#B0B0B0',
         Hovertext1: '#B88E2F',
+        ExploreBG: '#fcf8f3',
+        ExploreText: '#616161',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
