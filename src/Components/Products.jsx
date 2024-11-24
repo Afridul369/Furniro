@@ -7,13 +7,13 @@ import { IoMdShare } from 'react-icons/io'
 import { MdCompareArrows } from 'react-icons/md'
 import { FaRegHeart } from 'react-icons/fa'
 
-const Products = ({imgSrc,imgAlt,text1,text2,text3,text4,text5}) => {
+const Products = ({imgSrc,imgAlt,icon,text2,text3,text4,text5,backgroundBG}) => {
   return (
    <>
    <div className="mb-8">
-        <div className="relative overflow-y-hidden group">
+        <div className="relative overflow-y-hidden group ">
     <Image imgSrc={imgSrc} imgAlt={imgAlt} />
-    <Badge text={text1} className={'absolute top-5 left-[215px]'}/>
+    {icon}
             <div className="px-4 pt-4 pb-8 bg-productbg">
                 <Text as={'h1'} text={text2} className={'text-2xl font-Pop font-semibold text-Protext mb-2'}/>
                 <Text as={'h1'} text={text3} className={'text-base font-Pop font-medium text-protext2 mb-2'}/>

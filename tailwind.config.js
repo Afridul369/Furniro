@@ -21,6 +21,7 @@ export default {
         PText: '#666666',
         Protext: '#3A3A3A',
         Badgebg: '#E97171',
+        Badgebg2: '#2ec1ac',
         productbg: '#f4f5f7',
         protext2: '#898989',
         protext3: '#B0B0B0',
