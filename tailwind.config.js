@@ -28,6 +28,7 @@ export default {
         Hovertext1: '#B88E2F',
         ExploreBG: '#fcf8f3',
         ExploreText: '#616161',
+        Border: '#eeeeee',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
