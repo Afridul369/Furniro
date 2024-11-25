@@ -14,11 +14,12 @@ import Product8 from '../assets/product8.png'
 import Badge from './Badge'
 import DynamicBadge from './DynamicBadge'
 import Button1 from './Button1'
+import { Link } from 'react-router-dom'
 
 
 const Product = () => {
   return (
-    <div className="py-8">
+    <div className="py-16">
         <Container>
            <div className="text-center">
             <Text as={'h1'} text={'Our Products'} className={'text-[40px] font-Pop font-bold text-Protext mb-10'}/>
@@ -33,7 +34,7 @@ const Product = () => {
               <Products imgSrc={Product7} text1={'-30%'} text2={'Pingky'} text3={'Cute bed set'} text4={'Rp 7.000.000'} text5={<del>Rp 14.000.000</del>} icon={<DynamicBadge text1={'-50%'} backgroundBG={'bg-Badgebg'}/>}/>
               <Products imgSrc={Product8} text1={'-30%'} text2={'Potty'} text3={'Minimalist flower pot'} text4={'Rp 500.000'} icon={<DynamicBadge text1={'New'} backgroundBG={'bg-Badgebg2'}/>}/>
            </Flex>               
-             <Button1 texts={'Show More'} className={'mx-auto'}/>     
+             <Link to={'/shop'}><Button1 texts={'Show More'} className={'mx-auto'}/></Link>     
         </Container>
 
     </div> 

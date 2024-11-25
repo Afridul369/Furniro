@@ -29,6 +29,8 @@ export default {
         ExploreBG: '#fcf8f3',
         ExploreText: '#616161',
         Border: '#eeeeee',
+        Footer: '#9F9F9F',
+        fooBorder: '#D9D9D9',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",

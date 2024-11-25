@@ -15,7 +15,7 @@ import Furniture9 from '../assets/furniture9.png'
 const Furniture = () => {
   return (
     <>
-    <div className="py-8 border-b-2 border-border">
+    <div className="py-16 border-b-2 border-border">
         <div className="text-center">
             <Text as={'p'} text={'Share your setup with'} className={'text-xl font-Pop font-semibold text-ExploreText mb-3'}/>
             <Text as={'h1'} text={'#FuniroFurniture'} className={'text-[40px] font-Pop font-bold text-Protext'}/>
