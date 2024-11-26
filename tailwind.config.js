@@ -31,6 +31,7 @@ export default {
         Border: '#eeeeee',
         Footer: '#9F9F9F',
         fooBorder: '#D9D9D9',
+        Filterbg: '#f9f1e7',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
