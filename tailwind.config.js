@@ -32,6 +32,8 @@ export default {
         Footer: '#9F9F9F',
         fooBorder: '#D9D9D9',
         Filterbg: '#f9f1e7',
+        PagiBG: '#b88e2f',
+        PolicyBG: '#faf3ea',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",

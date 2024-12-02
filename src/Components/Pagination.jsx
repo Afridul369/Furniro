@@ -5,6 +5,7 @@ import Products from './Products';
 import Product1 from '../assets/product1.png';
 import Data from './Data'
 import ShopProduct from './ShopProduct';
+import Flex from './Flex';
 
 
 
@@ -45,15 +46,21 @@ function Pagination({ itemsPerPage }) {
   return (
     <>
       <Items currentItems={currentItems} />
+      <Flex className={'items-center justify-center'}>
       <ReactPaginate
         breakLabel="..."
-        nextLabel="next >"
+        nextLabel="Next"
+        nextClassName=' py-5 px-6 rounded-lg hover:text-white hover:bg-PagiBG bg-Filterbg text-black text-xl font-Pop font-light duration-500'
         onPageChange={handlePageClick}
         pageRangeDisplayed={5}
         pageCount={pageCount}
-        previousLabel="< previous"
+        previousLabel=""
         renderOnZeroPageCount={null}
+        containerClassName='flex gap-x-8 items-center'
+        pageLinkClassName='hover:bg-PagiBG hover:text-white bg-Filterbg text-black text-xl font-Pop duration-500 py-5 px-6 rounded-lg '
       />
+      </Flex>
+      
     </>
   );
 }

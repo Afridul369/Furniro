@@ -19,6 +19,9 @@ const Shop = () => {
       <Container className={'py-20'}>
         <Pagination itemsPerPage={16} />
       </Container>
+      <div className="bg-PolicyBG py-24">
+
+      </div>
     </div>
     </>
   )
