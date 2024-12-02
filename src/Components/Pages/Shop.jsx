@@ -5,6 +5,9 @@ import Shopimg from '../../assets/shopimg.png'
 import FilterBox from '../FilterBox'
 import Pagination from '../Pagination'
 
+import Policy from '../Policy'
+import PolicyContainer from '../PolicyContainer'
+
 
 const Shop = () => {
   return (
@@ -20,7 +23,9 @@ const Shop = () => {
         <Pagination itemsPerPage={16} />
       </Container>
       <div className="bg-PolicyBG py-24">
-
+          <PolicyContainer>
+            <Policy/>  
+          </PolicyContainer>  
       </div>
     </div>
     </>

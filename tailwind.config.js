@@ -12,6 +12,7 @@ export default {
         Container: '1240px',
         NavContainer: '1280px',
         BrowsContainer: '1180px',
+        PolicyContainer: '1335px',
       },
       fontFamily: {
         Pop : 'Poppins'      
@@ -34,6 +35,7 @@ export default {
         Filterbg: '#f9f1e7',
         PagiBG: '#b88e2f',
         PolicyBG: '#faf3ea',
+        policytext: '#242424',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
