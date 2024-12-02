@@ -6,6 +6,7 @@ import Product1 from '../assets/product1.png';
 import Data from './Data'
 import ShopProduct from './ShopProduct';
 import Flex from './Flex';
+import { Link } from 'react-router-dom';
 
 
 
@@ -17,7 +18,9 @@ function Items({ currentItems }) {
         {currentItems &&
             currentItems.map((item) => (
             <div>
-                <ShopProduct image={item.image}  title={item.title} description={item.description} offprice={item.offprice} price={item.price} discount={item.discount} discountbg={item.discountbg}/>
+                <Link to={'/singleproducts'}>
+                  <ShopProduct image={item.image}  title={item.title} description={item.description} offprice={item.offprice} price={item.price} discount={item.discount} discountbg={item.discountbg}/>
+                </Link>
             </div>
             ))}
       </div>

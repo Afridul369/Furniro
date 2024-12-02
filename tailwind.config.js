@@ -36,6 +36,7 @@ export default {
         PagiBG: '#b88e2f',
         PolicyBG: '#faf3ea',
         policytext: '#242424',
+        starbg: '#ffc700',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",

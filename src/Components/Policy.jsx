@@ -1,5 +1,4 @@
 import React from 'react'
-import NavContainer from './Container'
 import PolicyParts from './PolicyParts'
 import Policy1 from '../assets/policy1.png'
 import Policy2 from '../assets/policy2.png'
