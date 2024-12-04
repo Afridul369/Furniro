@@ -37,6 +37,7 @@ export default {
         PolicyBG: '#faf3ea',
         policytext: '#242424',
         starbg: '#ffc700',
+        colorbg: '#816dfa',
       },
       backgroundImage: {
         BannerBG: "url('src/assets/BannerBG.png')",
