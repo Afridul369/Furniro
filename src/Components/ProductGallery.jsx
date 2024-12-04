@@ -28,7 +28,7 @@ import Button1 from './Button1'
 const ProductGallery = () => {
   return (
     <>
-    <div className="py-16 ">
+    <div className="py-8 ">
         <Container >
             <Flex className={'justify-between  border-b-2 border-fooBorder'}>
                 <div className="w-1/2 ">
@@ -150,7 +150,7 @@ const ProductGallery = () => {
                     <Link to={'/singleproducts'}><Products imgSrc={Product3}  text2={'Lolito'} text3={'Luxury big sofa'} text4={'Rp 7.000.000'} text5={<del>Rp 14.000.000</del>} icon={<DynamicBadge text6={'-50%'} backgroundBG={'bg-Badgebg'}/>}/></Link>
                     <Link to={'/singleproducts'}><Products imgSrc={Product4}  text2={'Respira'} text3={'Outdoor bar table and stool'} text4={'Rp 500.000'} icon={<DynamicBadge text6={'New'} backgroundBG={'bg-Badgebg2'}/>}/></Link>
                 </Flex>
-                <Link to={'/shop'}><Button1 texts={'Show More'} className={'mx-auto mb-4'}/></Link>
+                <Link to={'/shop'}><Button1 texts={'Show More'} className={'mx-auto mb-8'}/></Link>
             </div>
         </Container>
     </div>

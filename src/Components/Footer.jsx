@@ -9,7 +9,7 @@ import Footerlogo from '../assets/footerlogo.png'
 const Footer = () => {
   return (
     <>
-    <div className="py-10">
+    <div className="py-16">
         <NavContainer>
            <Flex className={' justify-between border-b-2 border-fooBorder mb-10'}>
                 <div className="w-[350px]">

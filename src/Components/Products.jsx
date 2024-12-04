@@ -6,6 +6,7 @@ import Flex from './Flex'
 import { IoMdShare } from 'react-icons/io'
 import { MdCompareArrows } from 'react-icons/md'
 import { FaRegHeart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Products = ({imgSrc,imgAlt,icon,text2,text3,text4,text5,backgroundBG}) => {
   return (
@@ -25,9 +26,11 @@ const Products = ({imgSrc,imgAlt,icon,text2,text3,text4,text5,backgroundBG}) => 
             <div className="absolute bottom-[-460px] right-0 group-hover:bottom-0 duration-500 h-full w-full  bg-[#656565]/75">
                 <div className="py-[180px] ">
                     <div className="px-12">
-                        <div className="py-3 text-center bg-white mb-6">
-                            <Text as={'h1'} text={'Add to cart'} className={'text-base font-Pop font-semibold text-Hovertext1 '}/>
-                        </div>                    
+                        <Link to={'/cart'}>
+                            <div className="py-3 text-center bg-white mb-6">
+                                <Text as={'h1'} text={'Add to cart'} className={'text-base font-Pop font-semibold text-Hovertext1 '}/>
+                            </div>
+                        </Link>                    
                     </div>
                     <div className="px-7">
                         <Flex className={'justify-between'}>
