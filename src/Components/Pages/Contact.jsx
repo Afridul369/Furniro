@@ -17,7 +17,7 @@ const Contact = () => {
     <div className="">
         <Image imgSrc={Contactimg} imgAlt={'Contactimg'} className={'w-full'}/>
         <div className="py-16">
-            <div className="text-center mb-32">
+            <div className="text-center mb-16">
                 <Text as={'h1'} text={'Get In Touch With Us'} className={'text-4xl font-Pop font-semibold text-black mb-5'}/>
                 <Text as={'h1'} text={'For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!'} className={'text-base font-Pop px-[630px] text-Footer '}/>
             </div>

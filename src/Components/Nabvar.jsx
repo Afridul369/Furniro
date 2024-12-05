@@ -23,7 +23,7 @@ const Nabvar = () => {
                     <ul className={'flex gap-x-16 '}>
                         <Link to={'/'}><Menu menuname="Home" /></Link>
                         <Link to={'/shop'}><Menu menuname="Shop" /></Link>
-                        <Link to={''}><Menu menuname="About" /></Link>
+                        <Link to={'/blog'}><Menu menuname="About" /></Link>
                         <Link to={'/contact'}><Menu menuname="Contact" /></Link>   
                     </ul>
                 </div>

@@ -13,6 +13,7 @@ import Cart from './Components/Cart';
 import Checkout from './Components/Checkout';
 import Comparison from './Components/Comparison';
 import Contact from './Components/Pages/Contact';
+import Blog from './Components/Blog';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
             <Route path="/checkout" element={<Checkout/>}> </Route>
             <Route path="/comparison" element={<Comparison/>}> </Route>
             <Route path="/contact" element={<Contact/>}> </Route>
+            <Route path="/blog" element={<Blog/>}> </Route>
         </Route>
     </Route>
     </>
