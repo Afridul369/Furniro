@@ -38,10 +38,12 @@ const Products = ({imgSrc,imgAlt,icon,text2,text3,text4,text5,backgroundBG}) => 
                                  <IoMdShare />
                                  <Text as={'h1'} text={'Share'} className={'text-base font-Pop font-semibold text-white'}/>
                             </Flex>
-                            <Flex className={'items-center gap-x-1 text-white'}>
-                                 <MdCompareArrows />
-                                 <Text as={'h1'} text={'Compare'} className={'text-base font-Pop font-semibold text-white'}/>
-                            </Flex>
+                            <Link to={'/comparison'}>
+                                <Flex className={'items-center gap-x-1 text-white'}>
+                                    <MdCompareArrows />
+                                    <Text as={'h1'} text={'Compare'} className={'text-base font-Pop font-semibold text-white'}/>
+                                </Flex>
+                            </Link>
                             <Flex className={'items-center gap-x-1 text-white'}>
                                 <FaRegHeart />
                                 <Text as={'h1'} text={'Like'} className={'text-base font-Pop font-semibold text-white'}/>

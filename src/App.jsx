@@ -11,6 +11,8 @@ import RootLayout from './Components/RootLayout';
 import SingleProducts from './Components/SingleProducts';
 import Cart from './Components/Cart';
 import Checkout from './Components/Checkout';
+import Comparison from './Components/Comparison';
+import Contact from './Components/Pages/Contact';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +24,8 @@ const router = createBrowserRouter(
             <Route path="/singleproducts" element={<SingleProducts/>}> </Route>
             <Route path="/cart" element={<Cart/>}> </Route>
             <Route path="/checkout" element={<Checkout/>}> </Route>
+            <Route path="/comparison" element={<Comparison/>}> </Route>
+            <Route path="/contact" element={<Contact/>}> </Route>
         </Route>
     </Route>
     </>

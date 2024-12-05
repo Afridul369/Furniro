@@ -13,6 +13,7 @@ export default {
         NavContainer: '1280px',
         BrowsContainer: '1180px',
         PolicyContainer: '1335px',
+        ContactContainer: '1060px',
       },
       fontFamily: {
         Pop : 'Poppins'      

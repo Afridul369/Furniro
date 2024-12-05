@@ -24,7 +24,7 @@ const Nabvar = () => {
                         <Link to={'/'}><Menu menuname="Home" /></Link>
                         <Link to={'/shop'}><Menu menuname="Shop" /></Link>
                         <Link to={''}><Menu menuname="About" /></Link>
-                        <Link to={''}><Menu menuname="Contact" /></Link>   
+                        <Link to={'/contact'}><Menu menuname="Contact" /></Link>   
                     </ul>
                 </div>
                 <div className=" ">
