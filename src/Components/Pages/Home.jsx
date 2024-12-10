@@ -9,7 +9,6 @@ import Furniture from '../Furniture'
 const Home = () => {
   return (
     <>
-
     <Banner/>
     <Browse/>
     <Product/>

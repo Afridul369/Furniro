@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
 const Products = ({imgSrc,imgAlt,icon,text2,text3,text4,text5,backgroundBG}) => {
   return (
    <>
-   <div className="mb-8">
+   <div className="mb-8 ">
         <div className="relative overflow-y-hidden group w-[100%]">
             <Image imgSrc={imgSrc} imgAlt={imgAlt} />
             {icon}

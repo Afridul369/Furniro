@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Container from './Container'
 import Text from './Text'
 import Flex from './Flex'
@@ -14,10 +15,18 @@ import Product8 from '../assets/product8.png'
 import Badge from './Badge'
 import DynamicBadge from './DynamicBadge'
 import Button1 from './Button1'
-import { Link } from 'react-router-dom'
+import axios from 'axios'
 
 
 const Product = () => {
+  // const [all,setAll] =useState([])
+  // useEffect(()=>{
+  //   async function all(){
+  //     let data = await axios.get('https://api.escuelajs.co/api/v1/products')
+  //     setAll(data.data.products)
+  //   }
+  //   all()
+  // },[])
   return (
     <div className="py-16">
         <Container>
@@ -25,6 +34,12 @@ const Product = () => {
             <Text as={'h1'} text={'Our Products'} className={'text-[40px] font-Pop font-bold text-Protext mb-10'}/>
            </div>
            <Flex className={'flex-wrap gap-x-8'}>
+            {/* {
+              all.map((item)=>(
+                <Products imgSrc={item.images}  text2={item.title} text3={item.category} text4={item.price}  />
+              ))
+            } */}
+
               <Link to={'/singleproducts'}><Products imgSrc={Product1}  text2={'Syltherine'} text3={'Stylish cafe chair'} text4={'Rp 2.500.000'} text5={<del>Rp 3.500.000</del>} icon={<DynamicBadge text6={'-30%'} backgroundBG={'bg-Badgebg'}/>}/></Link>
               <Link to={'/singleproducts'}><Products imgSrc={Product2}  text2={'Leviosa'} text3={'Stylish cafe chair'} text4={'Rp 2.500.000'}  /></Link>
               <Link to={'/singleproducts'}><Products imgSrc={Product3}  text2={'Lolito'} text3={'Luxury big sofa'} text4={'Rp 7.000.000'} text5={<del>Rp 14.000.000</del>} icon={<DynamicBadge text6={'-50%'} backgroundBG={'bg-Badgebg'}/>}/></Link>
